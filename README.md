@@ -6,7 +6,7 @@ A simple implementation of the game Snake in C. It utilizes the ncurses as a TUI
 ## **Installation & Setup**
 **NOTICE: This project was developed and tested on WSL (Windows Subsystem for Linux). The following instructions are tailored for this environment but should work on most Linux distributions.**
 
-**Windows: If using windows, I highly recommend setting up WSL (Windows Subsystem for Linux) to run this project. WSL is a lightweight Linux enviroment within windows, utilizing the Ubuntu distribution, making it easier to install and use tools like ncurses. Below is a link to the WSL page for download.**
+**I highly recommend setting up WSL (Windows Subsystem for Linux) to run this project. WSL is a lightweight Linux enviroment within windows, utilizing the Ubuntu distribution, making it easier to install and use tools like ncurses. Below is a link to the WSL page for download.**
 
 [DOWNLOAD WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 
