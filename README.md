@@ -18,4 +18,12 @@ sudo apt-get install libncurses5-dev libncursesw5-dev
 ```
 Note: libncursesw5-dev is included for wide-character support, enabling the use of unicode and multibyte characters. (eg: emojis, currency symbols, "|" etc...)
 
+2. **Compile & Run**
+```sh
+make
+```
+```sh
+./snake
+```
+
 
