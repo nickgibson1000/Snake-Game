@@ -22,8 +22,10 @@ Note: libncursesw5-dev is included for wide-character support, enabling the use 
 ```sh
 make
 ```
+Utilizing a makefile this will compile all neccessary c source files into a single object file
+
 ```sh
 ./snake
 ```
-
+This will execute our object file and run the program
 
