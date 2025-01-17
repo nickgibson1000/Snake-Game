@@ -16,18 +16,18 @@ To get started follow the steps below:
 ```sh
 sudo apt-get install libncurses5-dev libncursesw5-dev
 ```
-Note: libncursesw5-dev is included for wide-character support, enabling the use of unicode and multibyte characters. (eg: emojis, currency symbols, "|" etc...)
+Note: libncursesw5-dev is included for wide-character support, enabling the use of unicode and multibyte characters. (eg: emojis, currency symbols, "|" etc...).
 
 2. **Compile & Run**
 ```sh
 make
 ```
-Utilizing a makefile this will compile all neccessary c source files into a single object file
+Utilizing a makefile this will compile all neccessary c source files into a single object file.
 
 ```sh
 ./snake
 ```
-This will execute our object file and run the program
+This will execute our object file and run the program.
 
 
 **For VScode Users**
@@ -35,9 +35,9 @@ If you wish too create your own projects with ncurses I suggest remotely running
 
 1. Open the command pallete by pressing **ctrl + shift + p** or by navigating to the settings icon in the bottom left, it should appear at the top of the menu.
 
-2. Enter ``` C/C++: Edit Configurations (JSON) ``` and open the file
+2. Enter ``` C/C++: Edit Configurations (JSON) ``` and open the file.
  
-3. Under ```includePath``` add in this line somewhere in between its brackets ```"/usr/local/include",```. This is the default location for manually installed headers, so its neccessary for VScode to have access to the directory ncurses is stored in
+3. Under ```includePath``` add in this line somewhere in between its brackets ```"/usr/local/include",```. This is the default location for manually installed headers, so its neccessary for VScode to have access to this directory as it is where the ncurses header is stored.
 
 4. Save the file and start programming!
 
