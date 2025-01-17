@@ -14,7 +14,7 @@ To get started follow the steps below:
 
 1. **Clone this Repository**
 ```sh
-git clone https://github.com/yourusername/Snake-Game.git
+git clone https://github.com/nickgibson1000/Snake-Game.git
 cd Snake-Game
 ```
 
