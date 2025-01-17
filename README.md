@@ -6,7 +6,9 @@ A simple implementation of the game Snake in C. It utilizes ncurses as a TUI (Te
 ## **Installation & Setup**
 To get started follow the steps below:
 
-1. Install ncurses
-
+1. **Install ncurses**
+```sh
+sudo apt-get install libncurses5-dev libncursesw5-dev
+```
 
 
