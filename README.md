@@ -13,23 +13,22 @@ A simple implementation of the game Snake in C. It utilizes the ncurses as a TUI
 To get started follow the steps below:
 
 1. **Clone this Repository**
+```sh
+git clone https://github.com/yourusername/Snake-Game.git
+cd Snake-Game
+```
 
-1. **Install ncurses**
+2. **Install ncurses**
 ```sh
 sudo apt-get install libncurses5-dev libncursesw5-dev
 ```
-Note: libncursesw5-dev is included for wide-character support, enabling the use of unicode and multibyte characters. (eg: emojis, currency symbols, "|" etc...).
+Note: libncursesw5-dev is included for wide-character support, enabling the use of unicode and multibyte characters. (eg: emojis, currency symbols, '|' etc...).
 
-2. **Compile & Run**
+3. **Compile & Run**
 ```sh
 make
-```
-Utilizing a makefile this will compile all neccessary c source files into a single object file.
-
-```sh
 ./snake
 ```
-This will execute our object file and run the program.
 
 ## **For VScode Users**
 
