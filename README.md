@@ -1,7 +1,7 @@
 # Snake Game
 
 ## **Overview**
-A simple implementation of the game Snake in C. It utilizes ncurses as a TUI (Text-User Interface) for realtime game updates.
+A simple implementation of the game Snake in C. It utilizes the ncurses as a TUI (Text-User Interface) for realtime game updates.
 
 ## **Installation & Setup**
 **NOTICE: This project was developed and tested on WSL (Windows Subsystem for Linux). The following instructions are tailored for this environment but should work on most Linux distributions.**
