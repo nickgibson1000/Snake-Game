@@ -12,6 +12,8 @@ A simple implementation of the game Snake in C. It utilizes the ncurses as a TUI
 
 To get started follow the steps below:
 
+1. **Clone this Repository**
+
 1. **Install ncurses**
 ```sh
 sudo apt-get install libncurses5-dev libncursesw5-dev
@@ -29,11 +31,11 @@ Utilizing a makefile this will compile all neccessary c source files into a sing
 ```
 This will execute our object file and run the program.
 
+## **For VScode Users**
 
-**For VScode Users**
-If you wish too create your own projects with ncurses I suggest remotely running WSL inside of the IDE. However, in-order for VScode too recognize the ncurses library you will need to update your C/C++ properties file. This can be done as follows...
+If you wish too create your own projects with ncurses, I suggest remotely running WSL inside of VScode. However, in-order for VScode too recognize the ncurses library you will need to update your C/C++ properties file. This can be done as follows...
 
-1. Open the command pallete by pressing **ctrl + shift + p** or by navigating to the settings icon in the bottom left, it should appear at the top of the menu.
+1. Open the command pallete by pressing **ctrl + shift + p** or by navigating to the settings icon in the bottom left ( a command pallete prompt should appear at the top of the menu).
 
 2. Enter ``` C/C++: Edit Configurations (JSON) ``` and open the file.
  
